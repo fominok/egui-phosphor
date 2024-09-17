@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/amPerl/egui-phosphor"
 
 [dependencies]
-egui = { version = "0.28", default-features = false }
+egui = { git = "https://github.com/emilk/egui/", rev = "f38515afe9c0b220c7a698566630c28d8f57b44f" }
 
 [features]
 default = ["regular"]
@@ -18,7 +18,7 @@ bold = []
 fill = []
 
 [dev-dependencies]
-eframe = "0.28"
+eframe = { git = "https://github.com/emilk/egui/", rev = "f38515afe9c0b220c7a698566630c28d8f57b44f" }
 
 [[example]]
 name = "multiple_variants"
